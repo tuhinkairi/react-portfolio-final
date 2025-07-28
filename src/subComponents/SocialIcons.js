@@ -4,6 +4,7 @@ import React from "react";
 import styled from "styled-components";
 import { Facebook, Github, Twitter, YouTube } from "../components/AllSvgs";
 import { DarkTheme } from "../components/Themes";
+import { userData } from "../config";
 
 const Icons = styled.div`
   display: flex;
@@ -23,7 +24,7 @@ const Icons = styled.div`
 
 const Line = styled(motion.span)`
   width: 2px;
-  height: 8rem;
+  height: 4rem;
   background-color: ${(props) =>
     props.color === "dark" ? DarkTheme.text : DarkTheme.body};
 `;
@@ -40,7 +41,7 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           rel="noreferrer"
-          href={"https://github.com/codebucks27"}
+          href={userData.git}
         >
           <Github
             width={25}
@@ -58,7 +59,7 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           rel="noreferrer"
-          href={"https://twitter.com/code_bucks"}
+          href={userData.twiter}
         >
           <Twitter
             width={25}
@@ -76,7 +77,7 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           rel="noreferrer"
-          href={"https://facebook.com/codebucks27"}
+          href={userData.fb}
         >
           <Facebook
             width={25}
@@ -94,7 +95,7 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           rel="noreferrer"
-          href={"https://youtube.com"}
+          href={userData.youtube}
         >
           <YouTube
             width={25}
