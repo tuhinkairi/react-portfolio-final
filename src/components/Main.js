@@ -8,6 +8,7 @@ import SocialIcons from '../subComponents/SocialIcons'
 import { YinYang } from './AllSvgs'
 import Intro from './Intro'
 ;
+import { userData } from '../config'
 
 
 const MainContainer = styled.div`
@@ -145,7 +146,7 @@ const Main = () => {
                 <span>click here</span>
             </Center>
 
-            <Contact target="_blank" href="mailto:codebucks27@gmail.com">
+            <Contact target="_blank" href={`mailto:${userData.mail}`}>
                 <motion.h2
                 initial={{
                     y:-200,

@@ -1,9 +1,9 @@
 export const userData = {
     "logo":"TK",
     "name":"Tuhin Kairi",
-    "description":"",
+    "description":"I Design & Build Clean, Intelligent, and Scalable Digital Experiences",
     "insta":"",
-    "mail":"",
+    "mail":"tuhinkairii@gmail.com",
     "fb":"",
     "git":"",
     "twiter":"",
