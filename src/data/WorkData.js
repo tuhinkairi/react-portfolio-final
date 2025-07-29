@@ -30,7 +30,7 @@ export const Work = [
         name:"Real-Time Chat Application",
         description:"Chat app with video/audio calling, AI replies, and real-time messaging.",
         tags:["next.js","convex","zegocloud","ai"],
-        demo:"https://realtime-chat-ai.vercel.app/",
+        demo:"https://whatsapp-mauve.vercel.app/",
         github:"https://github.com/tuhinkairii/realtime-chat-app"
     },
     {

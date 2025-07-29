@@ -410,7 +410,7 @@ const MySkillsPage = () => {
           )}
         </Modal>
 
-        <BigTitle text="EXPERTISE" top="80%" right="30%" />
+        <BigTitle text="SKILLS" top="80%" right="50%" />
       </Box>
     </ThemeProvider>
   );
