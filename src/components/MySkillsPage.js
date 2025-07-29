@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
-import styled, { ThemeProvider, keyframes } from "styled-components";
+import React, { useState } from "react";
+import styled, { ThemeProvider} from "styled-components";
 import { lightTheme } from "./Themes";
 import { Design, Develope } from "./AllSvgs";
 
